@@ -2,7 +2,9 @@
 
 An interactive English learning companion inspired by Victor Niederhoffer's *The Education of a Speculator*.
 
-Explore 48 lessons in eight learning modules and 16 chapter guides. The library includes search, self-check quizzes, bookmarks, reading progress, and downloadable study notes.
+Explore 48 lessons in eight learning modules and 16 chapter guides. Every lesson includes a sourced real-world case, its connection to the lesson, and a reflection question. Eleven events and research examples are examined from different angles.
+
+Use the **繁體中文（香港） / English** button to switch the whole learning library, including quizzes, cases, chapter guides, and downloads. Language preference, bookmarks and progress are saved locally and shared between the language versions.
 
 The writing consists of original summaries, interpretation, and practical learning exercises. Chapter labels are descriptive English translations of the Chinese edition. The website distinguishes book context from additional examples and exercises.
 
@@ -26,4 +28,6 @@ In the repository's Pages settings, choose **Deploy from a branch**, select **ma
 - `style.css`: responsive layout and visual styling
 - `app.js`: navigation, search, quizzes, and browser storage
 - `content.js`: lesson and chapter content
+- `content-zh-HK.js`: Hong Kong Traditional Chinese learning edition
 - `study-notes.json` and `study-notes.txt`: downloadable learning materials
+- `study-notes-zh-HK.json` and `study-notes-zh-HK.txt`: Chinese learning materials

@@ -263,7 +263,12 @@
         "The forecast must always work."
       ],
       "answer": 1,
-      "explanation": "An outcome is one observation. It does not erase the exposure or financing risks along the way."
+      "explanation": "An outcome is one observation. It does not erase the exposure or financing risks along the way.",
+      "case": {
+        "id": "ltcm",
+        "connection": "An eventual convergence cannot help a position that lacks cash to survive. Separate the forecast from the capacity to hold it.",
+        "prompt": "What funding condition would end the trade before the thesis could be tested?"
+      }
     },
     {
       "id": "1-2",
@@ -296,7 +301,12 @@
         "Can every decline be explained afterward?"
       ],
       "answer": 1,
-      "explanation": "Funding and liquidity can constrain a trade before the forecast is resolved."
+      "explanation": "Funding and liquidity can constrain a trade before the forecast is resolved.",
+      "case": {
+        "id": "ltcm",
+        "connection": "A liquidity shock turns a valuation question into a financing question. Model both at once.",
+        "prompt": "Who supplies cash when your usual lender or buyer steps back?"
+      }
     },
     {
       "id": "1-3",
@@ -329,7 +339,12 @@
         "The desire to recover a previous loss."
       ],
       "answer": 1,
-      "explanation": "Evidence bears on the claim. Prior effort and disappointment do not."
+      "explanation": "Evidence bears on the claim. Prior effort and disappointment do not.",
+      "case": {
+        "id": "challenger",
+        "connection": "Effort already invested cannot answer a fresh safety objection. Use this decision failure as an analogy for sunk commitment.",
+        "prompt": "What evidence would justify stopping a project you have worked hard on?"
+      }
     },
     {
       "id": "1-4",
@@ -362,7 +377,12 @@
         "The eventual rebound alone."
       ],
       "answer": 0,
-      "explanation": "The path and constraints determine whether the recovery was available to the participant."
+      "explanation": "The path and constraints determine whether the recovery was available to the participant.",
+      "case": {
+        "id": "flash",
+        "connection": "A rebound does not demonstrate that an entry was executable or survivable. Reconstruct the intervening path.",
+        "prompt": "What would you need to know besides the low and the later recovery?"
+      }
     },
     {
       "id": "1-5",
@@ -395,7 +415,12 @@
         "Different entry prices."
       ],
       "answer": 1,
-      "explanation": "A common dependency can connect positions across markets."
+      "explanation": "A common dependency can connect positions across markets.",
+      "case": {
+        "id": "ltcm",
+        "connection": "Different markets can become one crowded liquidity exposure. A list of instruments is not a map of independent risks.",
+        "prompt": "Which common stress could hurt several positions simultaneously?"
+      }
     },
     {
       "id": "1-6",
@@ -428,7 +453,12 @@
         "An exit always fills at the displayed price."
       ],
       "answer": 1,
-      "explanation": "Clarity addresses avoidable ambiguity without pretending that execution risk disappears."
+      "explanation": "Clarity addresses avoidable ambiguity without pretending that execution risk disappears.",
+      "case": {
+        "id": "knight",
+        "connection": "Execution controls are part of the decision. Clear intent is insufficient if the machinery sends the wrong orders.",
+        "prompt": "How would you detect an order stream that no longer matches your instruction?"
+      }
     },
     {
       "id": "2-1",
@@ -461,7 +491,12 @@
         "The price will close higher after five sessions."
       ],
       "answer": 2,
-      "explanation": "A defined outcome and horizon limit reinterpretation."
+      "explanation": "A defined outcome and horizon limit reinterpretation.",
+      "case": {
+        "id": "replication",
+        "connection": "A prestigious published result still needs a defined criterion for independent confirmation. Authority cannot replace that criterion.",
+        "prompt": "What exactly would count as confirming the forecast you are reading?"
+      }
     },
     {
       "id": "2-2",
@@ -494,7 +529,12 @@
         "The effect disappears after costs."
       ],
       "answer": 1,
-      "explanation": "An undefined exception can protect a claim from every possible result."
+      "explanation": "An undefined exception can protect a claim from every possible result.",
+      "case": {
+        "id": "replication",
+        "connection": "A test is useful because the claim can fail it. An unsuccessful replication invites investigation rather than automatic dismissal.",
+        "prompt": "What finding would make you narrow your original claim?"
+      }
     },
     {
       "id": "2-3",
@@ -527,7 +567,12 @@
         "A preferred conclusion."
       ],
       "answer": 0,
-      "explanation": "The question and measurement rule determine what the observations represent."
+      "explanation": "The question and measurement rule determine what the observations represent.",
+      "case": {
+        "id": "spiva",
+        "connection": "Performance depends on the sample definition. Fix who enters the denominator before measuring success.",
+        "prompt": "Who enters your dataset, and who could disappear from it?"
+      }
     },
     {
       "id": "2-4",
@@ -560,7 +605,12 @@
         "A stronger slogan."
       ],
       "answer": 0,
-      "explanation": "Selection of winners can conceal whether the proposed feature actually distinguishes them."
+      "explanation": "Selection of winners can conceal whether the proposed feature actually distinguishes them.",
+      "case": {
+        "id": "spiva",
+        "connection": "Remembering winners leaves out the comparison group. A success maxim needs records of less successful participants too.",
+        "prompt": "Would your maxim still look convincing if every failed case were included?"
+      }
     },
     {
       "id": "2-5",
@@ -593,7 +643,12 @@
         "To make the historical chart smoother."
       ],
       "answer": 1,
-      "explanation": "An unseen evaluation reduces the advantage gained from repeated fitting to the same history."
+      "explanation": "An unseen evaluation reduces the advantage gained from repeated fitting to the same history.",
+      "case": {
+        "id": "replication",
+        "connection": "A fresh replication asks a different question from explaining the original sample. New observations challenge a fitted story.",
+        "prompt": "Which data will remain unseen until your rule is frozen?"
+      }
     },
     {
       "id": "2-6",
@@ -626,7 +681,12 @@
         "A universal explanation without further tests."
       ],
       "answer": 1,
-      "explanation": "Separating defined contexts can expose differences that an aggregate conceals."
+      "explanation": "Separating defined contexts can expose differences that an aggregate conceals.",
+      "case": {
+        "id": "deepblue",
+        "connection": "A match score alone cannot reveal decisions in different positions. This case is a prompt to record context alongside outcomes.",
+        "prompt": "How would you separate decisions made while ahead from those made while behind?"
+      }
     },
     {
       "id": "3-1",
@@ -659,7 +719,12 @@
         "A correct forecast guarantees execution."
       ],
       "answer": 0,
-      "explanation": "The relevant lesson concerns constraints, not a universal weather rule."
+      "explanation": "The relevant lesson concerns constraints, not a universal weather rule.",
+      "case": {
+        "id": "snb",
+        "connection": "A policy condition can change the arena itself. A plan that assumes the old floor must explicitly address its removal.",
+        "prompt": "Which rule or policy does your plan silently assume will continue?"
+      }
     },
     {
       "id": "3-2",
@@ -692,7 +757,12 @@
         "The reputation earned in the old arena."
       ],
       "answer": 1,
-      "explanation": "Past competence does not remove the need to learn a different rulebook."
+      "explanation": "Past competence does not remove the need to learn a different rulebook.",
+      "case": {
+        "id": "deepblue",
+        "connection": "Success in one setting does not establish mastery of another. Use the human–machine contest to inspect which assumptions transfer.",
+        "prompt": "Which skill transfers, and which information or rules differ?"
+      }
     },
     {
       "id": "3-3",
@@ -725,7 +795,12 @@
         "Having a confident personality."
       ],
       "answer": 1,
-      "explanation": "Independence helps formulate questions; evidence helps resolve them."
+      "explanation": "Independence helps formulate questions; evidence helps resolve them.",
+      "case": {
+        "id": "replication",
+        "connection": "Independent judgment means exposing your own preferred answer to correction as well as questioning the consensus.",
+        "prompt": "What is the strongest evidence against your preferred interpretation?"
+      }
     },
     {
       "id": "3-4",
@@ -758,7 +833,12 @@
         "Avoid the difficult component."
       ],
       "answer": 0,
-      "explanation": "A bounded component makes errors and changes easier to identify."
+      "explanation": "A bounded component makes errors and changes easier to identify.",
+      "case": {
+        "id": "knight",
+        "connection": "A deployment failure illustrates why checking components matters. Practice should isolate a failure mode, not only run an end-to-end demonstration.",
+        "prompt": "What small repeatable test would reveal the weakness you want to improve?"
+      }
     },
     {
       "id": "3-5",
@@ -791,7 +871,12 @@
         "An assumption that nobody else adapts."
       ],
       "answer": 1,
-      "explanation": "Strategic reasoning includes how the decision changes the choices available to others."
+      "explanation": "Strategic reasoning includes how the decision changes the choices available to others.",
+      "case": {
+        "id": "deepblue",
+        "connection": "A chess move invites a reply. Use this documented contest to practice branching analysis, while remembering markets have less complete rules.",
+        "prompt": "What two replies would change your next decision?"
+      }
     },
     {
       "id": "3-6",
@@ -824,7 +909,12 @@
         "Changing it when a stated assumption is contradicted."
       ],
       "answer": 2,
-      "explanation": "A specified reason for revision keeps adaptation connected to evidence."
+      "explanation": "A specified reason for revision keeps adaptation connected to evidence.",
+      "case": {
+        "id": "snb",
+        "connection": "Preparation should identify adaptation triggers. A removed policy floor is a clear example of a changed assumption.",
+        "prompt": "Which observable change would make you revise rather than repeat the plan?"
+      }
     },
     {
       "id": "4-1",
@@ -857,7 +947,12 @@
         "Only if the sample is visually convincing."
       ],
       "answer": 1,
-      "explanation": "Frequent small wins can be outweighed by fewer large losses."
+      "explanation": "Frequent small wins can be outweighed by fewer large losses.",
+      "case": {
+        "id": "house",
+        "connection": "Frequent small wins can coexist with a negative average payoff. Count amounts as well as outcomes.",
+        "prompt": "Could a high win rate conceal a rare loss that dominates the average?"
+      }
     },
     {
       "id": "4-2",
@@ -890,7 +985,12 @@
         "−$3."
       ],
       "answer": 2,
-      "explanation": "The net result subtracts costs from the gross result."
+      "explanation": "The net result subtracts costs from the gross result.",
+      "case": {
+        "id": "buffett",
+        "connection": "Compare what participants retain after fees. This wager is an illustration, not proof about every manager or every future decade.",
+        "prompt": "Which costs should be deducted before comparing two approaches?"
+      }
     },
     {
       "id": "4-3",
@@ -923,7 +1023,12 @@
         "It has been a quiet day and you want action."
       ],
       "answer": 2,
-      "explanation": "Boredom supplies a motive, not evidence of an opportunity."
+      "explanation": "Boredom supplies a motive, not evidence of an opportunity.",
+      "case": {
+        "id": "house",
+        "connection": "Every extra negative-expectation round adds exposure to an unfavorable game. Waiting should be allowed in your process.",
+        "prompt": "What evidence would justify participation rather than simply wanting action?"
+      }
     },
     {
       "id": "4-4",
@@ -956,7 +1061,12 @@
         "Only the last result."
       ],
       "answer": 0,
-      "explanation": "A probability becomes an expected-payoff calculation only when outcomes have values."
+      "explanation": "A probability becomes an expected-payoff calculation only when outcomes have values.",
+      "case": {
+        "id": "buffett",
+        "connection": "A prestigious product label does not settle value. Ask what the price and charges leave for the investor.",
+        "prompt": "How would you compare an attractive description with its actual net payoff?"
+      }
     },
     {
       "id": "4-5",
@@ -989,7 +1099,12 @@
         "Neither changes the unfavorable underlying expectation."
       ],
       "answer": 2,
-      "explanation": "Stake timing and past outcomes do not remove the per-turn deduction under the stated assumptions."
+      "explanation": "Stake timing and past outcomes do not remove the per-turn deduction under the stated assumptions.",
+      "case": {
+        "id": "house",
+        "connection": "A staking sequence cannot remove an unfavorable expected payoff per unit bet in the simplified game. Capital limits still matter.",
+        "prompt": "What happens to a doubling plan when the next stake exceeds available capital?"
+      }
     },
     {
       "id": "4-6",
@@ -1022,7 +1137,12 @@
         "That a reversal is due."
       ],
       "answer": 1,
-      "explanation": "A recovery motive does not supply new evidence about the next event."
+      "explanation": "A recovery motive does not supply new evidence about the next event.",
+      "case": {
+        "id": "ltcm",
+        "connection": "Risk depends on exposure relative to available capital. Position size needs a rationale beyond recovering an earlier loss.",
+        "prompt": "What changes if capital falls but exposure stays the same?"
+      }
     },
     {
       "id": "5-1",
@@ -1055,7 +1175,12 @@
         "The story explaining the winner."
       ],
       "answer": 0,
-      "explanation": "Defining the selection rule in advance limits hindsight selection."
+      "explanation": "Defining the selection rule in advance limits hindsight selection.",
+      "case": {
+        "id": "flash",
+        "connection": "One rapid recovery is a selected episode, not a general loser-rebound rule. Define the comparison set first.",
+        "prompt": "Which declines without quick recoveries belong in a fair test?"
+      }
     },
     {
       "id": "5-2",
@@ -1088,7 +1213,12 @@
         "Proof that the story is causal."
       ],
       "answer": 1,
-      "explanation": "Measurement makes evaluation possible; it does not pre-decide the result."
+      "explanation": "Measurement makes evaluation possible; it does not pre-decide the result.",
+      "case": {
+        "id": "gme",
+        "connection": "A vivid chart supports many explanations. Compare each story with participant and transaction evidence.",
+        "prompt": "Which observation could distinguish your explanation from a rival one?"
+      }
     },
     {
       "id": "5-3",
@@ -1121,7 +1251,12 @@
         "Neither of those conclusions."
       ],
       "answer": 2,
-      "explanation": "Detectability, persistence and profitability require different checks."
+      "explanation": "Detectability, persistence and profitability require different checks.",
+      "case": {
+        "id": "buffett",
+        "connection": "Results depend on the period. A decade-long comparison is not evidence for an identical result in every shorter window.",
+        "prompt": "How will you test whether your effect survives another period and its costs?"
+      }
     },
     {
       "id": "5-4",
@@ -1154,7 +1289,12 @@
         "Neither."
       ],
       "answer": 2,
-      "explanation": "A statistical tendency does not specify the path, timing or tradability of one observation."
+      "explanation": "A statistical tendency does not specify the path, timing or tradability of one observation.",
+      "case": {
+        "id": "flash",
+        "connection": "A less extreme later price need not establish a stable reversal timetable. A single rebound cannot identify the cause.",
+        "prompt": "What lasting deterioration could make a rebound assumption fail?"
+      }
     },
     {
       "id": "5-5",
@@ -1187,7 +1327,12 @@
         "Its name becomes less popular."
       ],
       "answer": 0,
-      "explanation": "Competition can change compensation even when an observation retains predictive information."
+      "explanation": "Competition can change compensation even when an observation retains predictive information.",
+      "case": {
+        "id": "deepblue",
+        "connection": "Competitors and tools evolve. Yesterday’s relative advantage is a question to re-examine, not a permanent entitlement.",
+        "prompt": "What adaptation by others could reduce your tactic’s value?"
+      }
     },
     {
       "id": "5-6",
@@ -1220,7 +1365,12 @@
         "The underlying value must double."
       ],
       "answer": 0,
-      "explanation": "Trading at different sides of the spread can change transaction prices without moving the midpoint."
+      "explanation": "Trading at different sides of the spread can change transaction prices without moving the midpoint.",
+      "case": {
+        "id": "flash",
+        "connection": "Investigators looked beneath the price chart at market depth. Transaction mechanics belong in the explanation.",
+        "prompt": "Which quote or order-book data would challenge a last-price-only story?"
+      }
     },
     {
       "id": "6-1",
@@ -1253,7 +1403,12 @@
         "A memorable metaphor alone."
       ],
       "answer": 1,
-      "explanation": "A mechanism identifies behavior to examine, while evidence tests whether it actually occurs."
+      "explanation": "A mechanism identifies behavior to examine, while evidence tests whether it actually occurs.",
+      "case": {
+        "id": "snb",
+        "connection": "A policy change provides a concrete mechanism to investigate, unlike a coincidence between two rising lines.",
+        "prompt": "Which steps connect the policy decision to the market behavior you study?"
+      }
     },
     {
       "id": "6-2",
@@ -1286,7 +1441,12 @@
         "That the measured series co-move in the chosen sample."
       ],
       "answer": 2,
-      "explanation": "Causation and predictive usefulness require further evidence."
+      "explanation": "Causation and predictive usefulness require further evidence.",
+      "case": {
+        "id": "gme",
+        "connection": "Co-movement is not a full causal account. The staff report compared buying activity with competing explanations of the rise.",
+        "prompt": "What common driver or competing mechanism could explain both observations?"
+      }
     },
     {
       "id": "6-3",
@@ -1319,7 +1479,12 @@
         "The analogy guarantees which participant wins."
       ],
       "answer": 1,
-      "explanation": "Distinct objectives and constraints can produce different actions in the same environment."
+      "explanation": "Distinct objectives and constraints can produce different actions in the same environment.",
+      "case": {
+        "id": "gme",
+        "connection": "Retail buyers, short sellers and intermediaries need not share objectives. A participant map makes the questions more precise.",
+        "prompt": "What objective and constraint would you assign to each role without guessing motives?"
+      }
     },
     {
       "id": "6-4",
@@ -1352,7 +1517,12 @@
         "The same instrument at the same time."
       ],
       "answer": 1,
-      "explanation": "A price without its execution context may not represent a comparable opportunity."
+      "explanation": "A price without its execution context may not represent a comparable opportunity.",
+      "case": {
+        "id": "flash",
+        "connection": "Displayed prices and deep liquidity are different observations. Availability at size must be examined alongside the quote.",
+        "prompt": "How much could trade at that price, and when was the quote observed?"
+      }
     },
     {
       "id": "6-5",
@@ -1385,7 +1555,12 @@
         "All observed moves must be fraudulent."
       ],
       "answer": 0,
-      "explanation": "Adaptation changes the environment in which a tactic is used."
+      "explanation": "Adaptation changes the environment in which a tactic is used.",
+      "case": {
+        "id": "deepblue",
+        "connection": "A competitive contest illustrates why responses cannot be treated as fixed. Learning changes the opponent you face.",
+        "prompt": "What counter-response would make a familiar move less useful?"
+      }
     },
     {
       "id": "6-6",
@@ -1418,7 +1593,12 @@
         "It guarantees a profitable short position."
       ],
       "answer": 0,
-      "explanation": "Positive feedback amplifies a disturbance; it does not by itself establish its duration or trade value."
+      "explanation": "Positive feedback amplifies a disturbance; it does not by itself establish its duration or trade value.",
+      "case": {
+        "id": "gme",
+        "connection": "Several feedback mechanisms may coexist. The report cautions against treating short covering as the complete explanation.",
+        "prompt": "Which force amplifies the move, and which could eventually oppose it?"
+      }
     },
     {
       "id": "7-1",
@@ -1451,7 +1631,12 @@
         "Only reasons other people were wrong."
       ],
       "answer": 0,
-      "explanation": "Separation helps prevent an explanation from concealing an avoidable decision."
+      "explanation": "Separation helps prevent an explanation from concealing an avoidable decision.",
+      "case": {
+        "id": "challenger",
+        "connection": "A useful review follows the decision chain instead of stopping at a single person to blame. Separate evidence, communication and action.",
+        "prompt": "Which step was observed, and which explanation still needs evidence?"
+      }
     },
     {
       "id": "7-2",
@@ -1484,7 +1669,12 @@
         "A reason to increase exposure."
       ],
       "answer": 1,
-      "explanation": "Interest in a story can motivate inquiry; it does not validate the inference."
+      "explanation": "Interest in a story can motivate inquiry; it does not validate the inference.",
+      "case": {
+        "id": "gme",
+        "connection": "Attention and enthusiasm do not by themselves validate a forecasting rule. Use the episode to separate participation from predictive evidence.",
+        "prompt": "What would turn the exciting narrative into a testable claim?"
+      }
     },
     {
       "id": "7-3",
@@ -1517,7 +1707,12 @@
         "A substitute for a measurement rule."
       ],
       "answer": 1,
-      "explanation": "An analogy can direct attention without proving predictive power."
+      "explanation": "An analogy can direct attention without proving predictive power.",
+      "case": {
+        "id": "flash",
+        "connection": "“Tempo” can suggest a measurable rate of trades or price changes. It cannot itself explain the direction of a crash.",
+        "prompt": "Which quantity would make your metaphor observable?"
+      }
     },
     {
       "id": "7-4",
@@ -1550,7 +1745,12 @@
         "Winning and always being polite."
       ],
       "answer": 0,
-      "explanation": "The emotion and the resulting action are related but can be examined separately."
+      "explanation": "The emotion and the resulting action are related but can be examined separately.",
+      "case": {
+        "id": "deepblue",
+        "connection": "Use the competitive setting to discuss emotional responses without inventing an account of a player’s private feelings.",
+        "prompt": "After a frustrating surprise, what observable task deserves your attention next?"
+      }
     },
     {
       "id": "7-5",
@@ -1583,7 +1783,12 @@
         "Contrary evidence proves the observer is wrong."
       ],
       "answer": 1,
-      "explanation": "Confidence in the work can coexist with uncertainty about the result."
+      "explanation": "Confidence in the work can coexist with uncertainty about the result.",
+      "case": {
+        "id": "replication",
+        "connection": "Confidence in a method is compatible with revising a conclusion. Independent repetition keeps that distinction visible.",
+        "prompt": "How can you express commitment to the process while admitting uncertainty?"
+      }
     },
     {
       "id": "7-6",
@@ -1616,7 +1821,12 @@
         "Both favorable and unfavorable outcomes."
       ],
       "answer": 2,
-      "explanation": "The quality of a decision cannot be read from its final result alone."
+      "explanation": "The quality of a decision cannot be read from its final result alone.",
+      "case": {
+        "id": "challenger",
+        "connection": "Earlier success is not a fresh safety test. Use the case to ask whether good outcomes have hidden a fragile process.",
+        "prompt": "What weakness might a previous favorable outcome have concealed?"
+      }
     },
     {
       "id": "8-1",
@@ -1649,7 +1859,12 @@
         "A more colorful anecdote."
       ],
       "answer": 0,
-      "explanation": "The denominator and rule give the success count its meaning."
+      "explanation": "The denominator and rule give the success count its meaning.",
+      "case": {
+        "id": "replication",
+        "connection": "Reporting the attempted replications alongside the successful ones makes the denominator visible.",
+        "prompt": "What eligible failures are missing from your success count?"
+      }
     },
     {
       "id": "8-2",
@@ -1682,7 +1897,12 @@
         "Neither conclusion follows automatically."
       ],
       "answer": 2,
-      "explanation": "Economic value and persistence need their own evidence."
+      "explanation": "Economic value and persistence need their own evidence.",
+      "case": {
+        "id": "buffett",
+        "connection": "A useful comparison concerns net outcomes, not merely an impressive statistical claim. Fees belong in the economic question.",
+        "prompt": "What would make a detectable effect too small to use?"
+      }
     },
     {
       "id": "8-3",
@@ -1715,7 +1935,12 @@
         "Replace uncertain results with a memorable slogan."
       ],
       "answer": 1,
-      "explanation": "A documented revision makes the next investigation better informed."
+      "explanation": "A documented revision makes the next investigation better informed.",
+      "case": {
+        "id": "replication",
+        "connection": "A challenge to the initial claim can lead to a narrower, better-supported statement. Revision is a result of inquiry.",
+        "prompt": "What would your revised claim say after a failed confirmation?"
+      }
     },
     {
       "id": "8-4",
@@ -1748,7 +1973,12 @@
         "Only quotes from famous people."
       ],
       "answer": 1,
-      "explanation": "A consistent record makes comparison and learning possible."
+      "explanation": "A consistent record makes comparison and learning possible.",
+      "case": {
+        "id": "deepblue",
+        "connection": "A recorded contest can be reviewed move by move. Use that structure to keep reasons and outcomes together in your own journal.",
+        "prompt": "What should you record before knowing the outcome?"
+      }
     },
     {
       "id": "8-5",
@@ -1781,7 +2011,12 @@
         "Only the best-known winners."
       ],
       "answer": 1,
-      "explanation": "Following the initial group reduces the advantage created by selective survival or reporting."
+      "explanation": "Following the initial group reduces the advantage created by selective survival or reporting.",
+      "case": {
+        "id": "spiva",
+        "connection": "A starting cohort prevents disappearing funds from silently improving the comparison. Missing observations need explicit treatment.",
+        "prompt": "How will a closed or merged participant appear in your final report?"
+      }
     },
     {
       "id": "8-6",
@@ -1814,7 +2049,102 @@
         "Certainty that every analogy predicts markets."
       ],
       "answer": 1,
-      "explanation": "A research brief turns themes into a concrete inquiry someone else can understand and challenge."
+      "explanation": "A research brief turns themes into a concrete inquiry someone else can understand and challenge.",
+      "case": {
+        "id": "flash",
+        "connection": "The investigation illustrates a chain from observations to mechanisms. Make your own brief equally explicit about what it does and does not establish.",
+        "prompt": "Can another reader reproduce your definitions and challenge your inference?"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "ltcm",
+      "title": "LTCM: a funding emergency",
+      "date": "September 1998",
+      "facts": "Fourteen firms supplied $3.6 billion to prevent LTCM’s collapse. The Federal Reserve facilitated the arrangement without lending its own money.",
+      "source": "Federal Reserve History",
+      "url": "https://www.federalreservehistory.org/essays/ltcm-near-failure"
+    },
+    {
+      "id": "snb",
+      "title": "The Swiss franc policy break",
+      "date": "15 January 2015",
+      "facts": "The Swiss National Bank ended its CHF 1.20-per-euro floor, replacing a policy that market participants had relied upon.",
+      "source": "Swiss National Bank",
+      "url": "https://www.snb.ch/en/publications/communication/press-releases/2015/pre_20150115"
+    },
+    {
+      "id": "knight",
+      "title": "Knight Capital: orders without control",
+      "date": "1 August 2012",
+      "facts": "A faulty deployment generated millions of erroneous orders in 45 minutes. Knight eventually lost more than $460 million.",
+      "source": "SEC investigation",
+      "url": "https://www.sec.gov/newsroom/press-releases/2013-222"
+    },
+    {
+      "id": "replication",
+      "title": "Psychology’s replication project",
+      "date": "2015 project; 2023 review",
+      "facts": "Researchers attempted to replicate 100 psychology findings; 36% reached statistical significance in the same direction.",
+      "source": "Center for Open Science",
+      "url": "https://www.cos.io/impact/2023/incredible-foundations"
+    },
+    {
+      "id": "deepblue",
+      "title": "Deep Blue meets Kasparov",
+      "date": "May 1997",
+      "facts": "IBM’s Deep Blue defeated world chess champion Garry Kasparov in a six-game match.",
+      "source": "IBM history",
+      "url": "https://www.ibm.com/history/deep-blue"
+    },
+    {
+      "id": "buffett",
+      "title": "Buffett’s ten-year fund wager",
+      "date": "2008–2017",
+      "facts": "Buffett’s 2017 letter reports that the S&P 500 index fund beat each of five funds-of-funds over the wager.",
+      "source": "Berkshire Hathaway, 2017 letter",
+      "url": "https://www.berkshirehathaway.com/letters/2017ltr.pdf"
+    },
+    {
+      "id": "house",
+      "title": "A regulated explanation of house edge",
+      "date": "UK Gambling Commission guidance",
+      "facts": "The regulator explains house edge as the average share a casino expects to retain from each hand or spin.",
+      "source": "UK Gambling Commission",
+      "url": "https://www.gamblingcommission.gov.uk/public-and-players/guide/return-to-player-how-much-gaming-machines-payout"
+    },
+    {
+      "id": "flash",
+      "title": "The Flash Crash: price and liquidity",
+      "date": "6 May 2010",
+      "facts": "E-mini futures and SPY fell about 5% within five minutes, then recovered over the next ten. Investigators examined order-book liquidity.",
+      "source": "SEC staff analysis",
+      "url": "https://www.sec.gov/newsroom/speeches-statements/spch101310geb-market-participants-may-6-flash-crash"
+    },
+    {
+      "id": "gme",
+      "title": "GameStop: investigate the popular story",
+      "date": "January 2021",
+      "facts": "SEC staff found short covering contributed during some intervals, but positive sentiment sustained GameStop’s weeks-long rise.",
+      "source": "SEC staff report, pp. 25–26",
+      "url": "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf"
+    },
+    {
+      "id": "challenger",
+      "title": "Challenger: review the decision chain",
+      "date": "28 January 1986",
+      "facts": "The Rogers Commission found serious flaws in the launch decision process, including communication failures around safety concerns.",
+      "source": "NASA, Rogers Commission chapter 5",
+      "url": "https://www.nasa.gov/history/rogersrep/v1ch5.htm"
+    },
+    {
+      "id": "spiva",
+      "title": "SPIVA: include the missing funds",
+      "date": "Published scorecard methodology",
+      "facts": "SPIVA evaluates the whole starting opportunity set, including funds that disappear, to address survivorship bias.",
+      "source": "S&P Dow Jones Indices",
+      "url": "https://www.spglobal.com/spdji/en/research-insights/spiva/about-spiva/"
     }
   ]
 }

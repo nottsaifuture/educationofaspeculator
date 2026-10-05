@@ -7,4 +7,5 @@
 /source-method.json
 /build_content.py
 /expand_content.py
+/upgrade_site.py
 .DS_Store
