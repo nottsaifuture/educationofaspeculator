@@ -1,0 +1,10 @@
+/site/
+/tmp/
+/__pycache__/
+/*.zip
+/*.tar.gz
+/library-preview.png
+/source-method.json
+/build_content.py
+/expand_content.py
+.DS_Store
