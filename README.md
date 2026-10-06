@@ -2,7 +2,7 @@
 
 An interactive English learning companion inspired by Victor Niederhoffer's *The Education of a Speculator*.
 
-Explore 48 lessons in eight learning modules and 16 chapter guides. Every lesson includes a sourced real-world case, its connection to the lesson, and a reflection question. Eleven events and research examples are examined from different angles.
+Explore 48 lessons in eight learning modules and 16 chapter guides. Every lesson includes an extended sourced real-world case: background, a three-stage narrative, outcome and aftermath, a lesson-specific analysis, and a reflection question. Eleven events and research examples are examined from different angles.
 
 Use the **繁體中文（香港） / English** button to switch the whole learning library, including quizzes, cases, chapter guides, and downloads. Language preference, bookmarks and progress are saved locally and shared between the language versions.
 
