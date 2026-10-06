@@ -9,3 +9,5 @@
 /expand_content.py
 /upgrade_site.py
 .DS_Store
+
+/assets/art/*.png

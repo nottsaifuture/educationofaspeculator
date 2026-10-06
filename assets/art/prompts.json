@@ -1,0 +1,61 @@
+{
+  "generator": "Built-in image_gen",
+  "style": "Use case: illustration-story. Asset type: wide editorial learning website image, landscape 3:2. Style: premium contemporary editorial illustration, sculptural paper-cut forms with hand-painted grain, rich midnight teal, sage, terracotta and warm amber on ivory. Atmospheric depth, bold clear focal point, generous negative space, visually striking and sophisticated, no readable text, no numbers, no logos, no watermark. Conceptual illustration, not documentary photography.",
+  "prompts": [
+    {
+      "id": "ltcm",
+      "scene": "A precarious suspension bridge built from stacks of financial paper and elegant geometric towers, thin supporting cables fraying above a dark teal chasm; a single tiny human silhouette stands safely on the near bank. Symbolic illustration of funding fragility and leverage.",
+      "file": "ltcm.webp"
+    },
+    {
+      "id": "snb",
+      "scene": "A dramatic Swiss alpine mountain landscape with a broken golden boundary line crossing the valley, a small Swiss red-and-white flag on an abstract bank building, sudden change in direction of a flowing river. Symbolic illustration of a currency policy break.",
+      "file": "snb.webp"
+    },
+    {
+      "id": "knight",
+      "scene": "A trading control room rendered as a beautiful architectural cutaway, streams of tiny order tiles escaping from an unattended console while one bright emergency switch sits in the foreground. Symbolic illustration of operational controls and software deployment risk.",
+      "file": "knight.webp"
+    },
+    {
+      "id": "replication",
+      "scene": "Two research desks facing each other across a warm cream laboratory, matching glass prisms and notebooks, repeated experiments represented by neat rows of varied coloured circles, careful measurement rather than mysticism. Symbolic illustration of scientific replication.",
+      "file": "replication.webp"
+    },
+    {
+      "id": "deepblue",
+      "scene": "An elegant chessboard in perspective, carved ivory human-side pieces facing geometric teal machine-side pieces, a calm human hand considering the next move, sculptural mainframe in background. Symbolic illustration of human and computer competition.",
+      "file": "deepblue.webp"
+    },
+    {
+      "id": "buffett",
+      "scene": "Two parallel garden paths over a long distance: one straight simple path grows into a flourishing tree, the other winding path passes through many small toll gates. Coins are subtle and abstract. Symbolic illustration of long-term compounding and accumulated fund costs.",
+      "file": "buffett.webp"
+    },
+    {
+      "id": "house",
+      "scene": "A sophisticated overhead still life of dice, a roulette wheel segment and probability counters, an understated brass balance weighing a small recurring toll, no luxurious casino or people gambling. Symbolic illustration of probability and house edge.",
+      "file": "house.webp"
+    },
+    {
+      "id": "flash",
+      "scene": "An abstract market skyline reflected in a pool, a sudden jagged plunge interrupts the reflection, scattered order tiles and a thin narrow bridge between buyers and sellers. Symbolic illustration of disappearing liquidity and a flash crash.",
+      "file": "flash.webp"
+    },
+    {
+      "id": "gme",
+      "scene": "A miniature town square filled with abstract communication bubbles around a market building, crisscrossing threads connect brokers, investors and funds, several opposing arrows create feedback loops. Symbolic illustration of market participants and crowd narratives.",
+      "file": "gme.webp"
+    },
+    {
+      "id": "challenger",
+      "scene": "A quiet aerospace engineering workshop, a white space shuttle model on a workbench beside a circular rubber seal, a frost-covered window and a carefully opened inspection notebook. Respectful symbolic illustration of engineering judgment and decision review; no explosion or disaster victims.",
+      "file": "challenger.webp"
+    },
+    {
+      "id": "spiva",
+      "scene": "A meticulous research archive with shelves of fund folders; some empty slots remain clearly visible, a magnifying glass and a comparison scale include both full and empty folders. Symbolic illustration of survivorship bias and missing funds.",
+      "file": "spiva.webp"
+    }
+  ]
+}

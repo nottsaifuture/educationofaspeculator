@@ -16,6 +16,12 @@ The writing consists of original summaries, interpretation, and practical learni
 - Each lesson offers an experiment and a private reflection notebook. Notes are stored in the browser, shared between language versions, and removed if browser data is cleared.
 - Tabs support keyboard navigation and the design respects reduced-motion preferences.
 
+## Visual learning
+
+Every lesson uses a generated conceptual illustration related to its real-world case. Eleven case illustrations are shared across the 48 lessons; module cards, chapter cards and the other pages also include relevant artwork. Images are labelled as AI-generated concepts, not historical photographs. Eight hypothetical decision scenarios, bilingual feedback, keyboard-accessible recall cards, in-page shortcuts and an unread-lesson picker make the library more interactive.
+
+Artwork prompts and generation details are saved in `assets/art/prompts.json`. Website assets use compressed WebP files.
+
 ## Case charts
 
 Four documented cases include selectable bar charts and accessible data tables: LTCM (capital normalised from its reported August loss), the psychology replication project, Buffett’s fund wager, and the two Deep Blue matches. Captions distinguish reported figures from calculations and explain limitations.
@@ -42,6 +48,8 @@ In the repository's Pages settings, choose **Deploy from a branch**, select **ma
 
 - `index.html`: website entry point
 - `style.css` and `design.css`: responsive layout and editorial visual styling
+- `visual.js`: illustrations, decision scenarios, recall cards and lesson discovery
+- `assets/art/`: generated case illustrations and their prompt set
 - `case-charts.js`: historical case charts and data tables
 - `experience.js`: learning experiments, filters, case browsing and reflection notebooks
 - `app.js`: navigation, search, quizzes, and browser storage
