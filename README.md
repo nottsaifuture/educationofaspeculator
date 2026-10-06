@@ -20,6 +20,10 @@ The writing consists of original summaries, interpretation, and practical learni
 
 Four documented cases include selectable bar charts and accessible data tables: LTCM (capital normalised from its reported August loss), the psychology replication project, Buffett’s fund wager, and the two Deep Blue matches. Captions distinguish reported figures from calculations and explain limitations.
 
+## Education and privacy
+
+The About page explains educational use, investment risks, independent status and third-party copyright. It also explains local browser storage, shared-device access, deleting saved data, GitHub Pages IP logging and external links. There are currently no accounts, payment forms, analytics scripts or advertising trackers. Update this notice when the site’s data practices change.
+
 ## Run locally
 
 This is a static website with no build step or external dependencies. Serve this directory with any static web server, for example:
