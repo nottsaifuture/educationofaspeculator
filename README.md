@@ -16,6 +16,10 @@ The writing consists of original summaries, interpretation, and practical learni
 - Each lesson offers an experiment and a private reflection notebook. Notes are stored in the browser, shared between language versions, and removed if browser data is cleared.
 - Tabs support keyboard navigation and the design respects reduced-motion preferences.
 
+## Case charts
+
+Four documented cases include selectable bar charts and accessible data tables: LTCM (capital normalised from its reported August loss), the psychology replication project, Buffett’s fund wager, and the two Deep Blue matches. Captions distinguish reported figures from calculations and explain limitations.
+
 ## Run locally
 
 This is a static website with no build step or external dependencies. Serve this directory with any static web server, for example:
@@ -34,6 +38,7 @@ In the repository's Pages settings, choose **Deploy from a branch**, select **ma
 
 - `index.html`: website entry point
 - `style.css` and `design.css`: responsive layout and editorial visual styling
+- `case-charts.js`: historical case charts and data tables
 - `experience.js`: learning experiments, filters, case browsing and reflection notebooks
 - `app.js`: navigation, search, quizzes, and browser storage
 - `content.js`: lesson and chapter content

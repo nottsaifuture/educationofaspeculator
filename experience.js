@@ -59,7 +59,7 @@ function enhanceCards(){
  });
 }
 function enhanceLesson(id){
- const l=DATA.lessons.find(l=>l.id===id);if(!l)return;
+ const l=DATA.lessons.find(l=>l.id===id);if(!l)return;initCaseCharts();
  main.querySelectorAll('.lesson-sidebar a').forEach(a=>{if(a.hash==='#lesson/'+id){a.classList.add('current');a.setAttribute('aria-current','page');}});
  const mode=({1:'risk',2:'evidence',3:'odds',4:'odds',5:'evidence',6:'risk',7:'odds',8:'evidence'})[l.module];
  main.querySelector('.task').insertAdjacentHTML('beforebegin',`<section class="lesson-experiment"><div class="experiment-launch"><div><span class="label">${t('PUT THE IDEA TO WORK','把想法付諸實踐')}</span><h2>${t('Try a small experiment','試一個小實驗')}</h2><p>${t('Explore a simplified model connected to this module.','探索與本單元相關的簡化模型。')}</p></div><button class="btn light" type="button" id="open-experiment" aria-expanded="false" aria-controls="lesson-lab">${t('Open experiment','開啟實驗')} ↗</button></div><div id="lesson-lab" data-compact="true" hidden></div></section>`);
