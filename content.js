@@ -53,10 +53,6 @@ const DATA_EN = {
     {
       "id": 1,
       "title": "Training at Brighton Beach",
-      "pages": [
-        11,
-        46
-      ],
       "topic": "Competition",
       "summary": "Street games, family and sport form the author’s early education. The selected opening stories show why interruptions, rules and execution conditions can matter as much as a player’s intention.",
       "lesson": "3-1"
@@ -64,10 +60,6 @@ const DATA_EN = {
     {
       "id": 2,
       "title": "Panic and bad luck",
-      "pages": [
-        47,
-        80
-      ],
       "topic": "Risk",
       "summary": "Historical panics and personal reversals introduce the fragility of financing and liquidity. The opening account of 1907 emphasizes what happens when lending and the ability to sell deteriorate together.",
       "lesson": "1-2"
@@ -75,10 +67,6 @@ const DATA_EN = {
     {
       "id": 3,
       "title": "The Delphi oracle and science",
-      "pages": [
-        81,
-        114
-      ],
       "topic": "Scientific method",
       "summary": "The contrast between prediction rituals and scientific inquiry leads to observation, measurement, falsifiability and revision. Authority and atmosphere can make a forecast persuasive without making it testable.",
       "lesson": "2-2"
@@ -86,10 +74,6 @@ const DATA_EN = {
     {
       "id": 4,
       "title": "Losses, compensation, trends and weather",
-      "pages": [
-        115,
-        146
-      ],
       "topic": "Patterns",
       "summary": "Sporting setbacks sit beside questions about market regularities and recovery after poor performance. The selected passages invite investigation of historical reversals without treating them as timeless laws.",
       "lesson": "5-1"
@@ -97,10 +81,6 @@ const DATA_EN = {
     {
       "id": 5,
       "title": "Winning and self-reliance",
-      "pages": [
-        147,
-        175
-      ],
       "topic": "Competition",
       "summary": "The author connects competition, personal support and resistance to dogma. Changing squash conventions provide a starting point for distinguishing inherited traditions from evidence and effective learning.",
       "lesson": "3-3"
@@ -108,10 +88,6 @@ const DATA_EN = {
     {
       "id": 6,
       "title": "The nature of games",
-      "pages": [
-        176,
-        199
-      ],
       "topic": "Competition",
       "summary": "Childhood play becomes a way to discuss the balance between opportunity and caution. The porch-ball example makes clear that payoffs, rules and unexpected consequences belong to the same decision.",
       "lesson": "4-1"
@@ -119,10 +95,6 @@ const DATA_EN = {
     {
       "id": 7,
       "title": "Lessons from board games",
-      "pages": [
-        200,
-        227
-      ],
       "topic": "Competition",
       "summary": "Checkers and chess illuminate planning, reference frames and the danger of transferring habits into a different arena. Similar-looking contests can have very different mechanics.",
       "lesson": "3-2"
@@ -130,10 +102,6 @@ const DATA_EN = {
     {
       "id": 8,
       "title": "Gambling and speculation",
-      "pages": [
-        228,
-        256
-      ],
       "topic": "Probability",
       "summary": "The chapter questions financial labels and compares motives, probability, emotion and financial reserves. Its selected rule comparison emphasizes optional participation and avoiding activity for its own sake.",
       "lesson": "4-3"
@@ -141,10 +109,6 @@ const DATA_EN = {
     {
       "id": 9,
       "title": "Racing and market cycles",
-      "pages": [
-        257,
-        285
-      ],
       "topic": "Probability",
       "summary": "Racing supplies analogies for participants, incentives and the cost of entering a competitive arena. The selected discussion highlights deductions and intermediaries rather than a guaranteed method of winning.",
       "lesson": "4-2"
@@ -152,10 +116,6 @@ const DATA_EN = {
     {
       "id": 10,
       "title": "Deception and charts",
-      "pages": [
-        286,
-        324
-      ],
       "topic": "Patterns",
       "summary": "Examples from nature and competition accompany criticism of confident, untested chart explanations. Appearance and persuasive language need to be translated into observable claims before evaluation.",
       "lesson": "5-2"
@@ -163,10 +123,6 @@ const DATA_EN = {
     {
       "id": 11,
       "title": "Desire and speculation",
-      "pages": [
-        325,
-        352
-      ],
       "topic": "Human behavior",
       "summary": "The author explores stimulation, private motives and social associations with market activity. The opening hemline-market discussion is a useful occasion to distinguish narrative, correlation and predictive evidence.",
       "lesson": "7-2"
@@ -174,10 +130,6 @@ const DATA_EN = {
     {
       "id": 12,
       "title": "Randomness and profit",
-      "pages": [
-        353,
-        391
-      ],
       "topic": "Scientific method",
       "summary": "Academic arguments over randomness lead to investigations of transaction behavior and weekday effects. The selected discussion acknowledges both trading costs and the possibility that historical effects change or disappear.",
       "lesson": "5-3"
@@ -185,10 +137,6 @@ const DATA_EN = {
     {
       "id": 13,
       "title": "Understanding connections",
-      "pages": [
-        392,
-        427
-      ],
       "topic": "Market relationships",
       "summary": "Ecological chains and economic substitution introduce links between markets. A later warning about false relationships shows why visual similarity and shared trends do not establish causation.",
       "lesson": "6-2"
@@ -196,10 +144,6 @@ const DATA_EN = {
     {
       "id": 14,
       "title": "Music and counting",
-      "pages": [
-        428,
-        463
-      ],
       "topic": "Scientific method",
       "summary": "Music supplies analogies for sequence, contrast and surprise; counting supplies a way to challenge selective perception. The Galton and sporting-record passages emphasize systematic definitions and observations.",
       "lesson": "8-1"
@@ -207,10 +151,6 @@ const DATA_EN = {
     {
       "id": 15,
       "title": "Market ecology",
-      "pages": [
-        464,
-        506
-      ],
       "topic": "Market relationships",
       "summary": "Market participants are studied through an ecological lens: roles, constraints, incentives and interconnected activity. This is an interpretive framework to examine, rather than a literal biological law.",
       "lesson": "6-3"
@@ -218,10 +158,6 @@ const DATA_EN = {
     {
       "id": 16,
       "title": "Epilogue",
-      "pages": [
-        507,
-        546
-      ],
       "topic": "Learning practice",
       "summary": "Fishing and competition bring the book’s themes together: observe conditions, remain humble, record outcomes and adapt. The selected opening stresses that an effective method can lose its usefulness when the environment changes.",
       "lesson": "8-3"
@@ -233,10 +169,6 @@ const DATA_EN = {
       "module": 1,
       "title": "Being right is not enough",
       "desc": "A trade needs room to survive before the expected reversal arrives.",
-      "pages": [
-        1,
-        10
-      ],
       "chapter": "Opening: the old trader and the yen",
       "takeaway": [
         "A plausible forecast can still produce a dangerous position.",
@@ -276,10 +208,6 @@ const DATA_EN = {
       "module": 1,
       "title": "A panic is also a funding crisis",
       "desc": "Price risk and the ability to finance a position can deteriorate together.",
-      "pages": [
-        47,
-        49
-      ],
       "chapter": "Chapter 2 · Panic and bad luck",
       "takeaway": [
         "A quoted price does not guarantee a willing buyer.",
@@ -315,10 +243,6 @@ const DATA_EN = {
       "module": 1,
       "title": "Do not confuse endurance with judgment",
       "desc": "Fatigue and attachment are part of the opening story.",
-      "pages": [
-        7,
-        10
-      ],
       "chapter": "Opening · The old trader and the yen",
       "takeaway": [
         "Long hours do not establish an informational advantage.",
@@ -354,10 +278,6 @@ const DATA_EN = {
       "module": 1,
       "title": "Being contrarian does not remove danger",
       "desc": "The 1987 account contains a warning inside the buying story.",
-      "pages": [
-        123,
-        124
-      ],
       "chapter": "Chapter 4 · Actual losses",
       "takeaway": [
         "Fear in the crowd is not sufficient evidence.",
@@ -393,10 +313,6 @@ const DATA_EN = {
       "module": 1,
       "title": "Different positions can share one risk",
       "desc": "Several instruments can be exposed to the same event.",
-      "pages": [
-        124,
-        125
-      ],
       "chapter": "Chapter 4 · Actual losses",
       "takeaway": [
         "Count economic exposures, not just positions.",
@@ -432,10 +348,6 @@ const DATA_EN = {
       "module": 1,
       "title": "An exit instruction is part of the trade",
       "desc": "Read the author’s stop-order argument in its historical context.",
-      "pages": [
-        125,
-        126
-      ],
       "chapter": "Chapter 4 · Actual losses and order instructions",
       "takeaway": [
         "Execution instructions must be unambiguous.",
@@ -471,10 +383,6 @@ const DATA_EN = {
       "module": 2,
       "title": "The oracle problem",
       "desc": "Prestige and ambiguity can make a forecast seem stronger than it is.",
-      "pages": [
-        81,
-        83
-      ],
       "chapter": "Chapter 3 · The Delphi oracle and science",
       "takeaway": [
         "An impressive setting is not a test of accuracy.",
@@ -510,10 +418,6 @@ const DATA_EN = {
       "module": 2,
       "title": "A hypothesis must be able to fail",
       "desc": "Scientific reasoning includes correction, not just confirmation.",
-      "pages": [
-        99,
-        101
-      ],
       "chapter": "Chapter 3 · Method and applied science",
       "takeaway": [
         "Observe and measure before generalizing.",
@@ -549,10 +453,6 @@ const DATA_EN = {
       "module": 2,
       "title": "Galton: define what you are counting",
       "desc": "A clean question comes before a large spreadsheet.",
-      "pages": [
-        454,
-        457
-      ],
       "chapter": "Chapter 14 · Counting problems and how to count",
       "takeaway": [
         "Write the question before collecting observations.",
@@ -588,10 +488,6 @@ const DATA_EN = {
       "module": 2,
       "title": "A wise saying still needs a test",
       "desc": "An impressive trading legend can leave out decisive evidence.",
-      "pages": [
-        23,
-        25
-      ],
       "chapter": "Chapter 1 · Lessons from Livermore",
       "takeaway": [
         "A memorable maxim is a claim, not a measurement.",
@@ -627,10 +523,6 @@ const DATA_EN = {
       "module": 2,
       "title": "Explanation and prediction are different",
       "desc": "A model that fits old charts may not help with unseen data.",
-      "pages": [
-        296,
-        298
-      ],
       "chapter": "Chapter 10 · Deceptive technical models",
       "takeaway": [
         "Explaining a past chart is easier than predicting a new one.",
@@ -666,10 +558,6 @@ const DATA_EN = {
       "module": 2,
       "title": "Count behavior in its context",
       "desc": "The same player can behave differently under different incentives.",
-      "pages": [
-        456,
-        457
-      ],
       "chapter": "Chapter 14 · Counting education",
       "takeaway": [
         "Record context alongside the outcome.",
@@ -705,10 +593,6 @@ const DATA_EN = {
       "module": 3,
       "title": "The rules are part of the opportunity",
       "desc": "The environment can interrupt a plan that looks sound on paper.",
-      "pages": [
-        11,
-        13
-      ],
       "chapter": "Chapter 1 · Training at Brighton Beach",
       "takeaway": [
         "Check rules, interruptions and execution constraints.",
@@ -744,10 +628,6 @@ const DATA_EN = {
       "module": 3,
       "title": "Checkers and chess: learn the new frame",
       "desc": "An old reference point may become a blind spot.",
-      "pages": [
-        200,
-        202
-      ],
       "chapter": "Chapter 7 · Lessons from board games",
       "takeaway": [
         "Skills transfer imperfectly between games.",
@@ -783,10 +663,6 @@ const DATA_EN = {
       "module": 3,
       "title": "Independent judgment needs feedback",
       "desc": "Resistance to convention is useful only when you keep learning.",
-      "pages": [
-        147,
-        149
-      ],
       "chapter": "Chapter 5 · Winning and self-reliance",
       "takeaway": [
         "Confidence can help resist inherited dogma.",
@@ -822,10 +698,6 @@ const DATA_EN = {
       "module": 3,
       "title": "Racket sports: practice the component",
       "desc": "Repeated drills can expose weaknesses that matches conceal.",
-      "pages": [
-        28,
-        31
-      ],
       "chapter": "Chapter 1 · Racket training",
       "takeaway": [
         "Break a skill into repeatable components.",
@@ -861,10 +733,6 @@ const DATA_EN = {
       "module": 3,
       "title": "Board games: calculate the reply",
       "desc": "A decision changes the position other participants face.",
-      "pages": [
-        211,
-        214
-      ],
       "chapter": "Chapter 7 · Rules of the game",
       "takeaway": [
         "Consider the response your action permits.",
@@ -900,10 +768,6 @@ const DATA_EN = {
       "module": 3,
       "title": "Chess: know when the position has changed",
       "desc": "Prepared plans and flexibility belong together.",
-      "pages": [
-        224,
-        227
-      ],
       "chapter": "Chapter 7 · Qualities of a winner",
       "takeaway": [
         "Preparation supports adaptation rather than rigidity.",
@@ -939,10 +803,6 @@ const DATA_EN = {
       "module": 4,
       "title": "Win rate is only half the calculation",
       "desc": "Payoffs matter alongside probabilities.",
-      "pages": [
-        228,
-        230
-      ],
       "chapter": "Chapter 8 · Gambling and speculation",
       "takeaway": [
         "Labels do not determine the quality of a decision.",
@@ -978,10 +838,6 @@ const DATA_EN = {
       "module": 4,
       "title": "The toll comes out of your edge",
       "desc": "The contest and the cost of entering it are different things.",
-      "pages": [
-        257,
-        259
-      ],
       "chapter": "Chapter 9 · Racing and market cycles",
       "takeaway": [
         "Intermediary costs reduce what participants retain.",
@@ -1017,10 +873,6 @@ const DATA_EN = {
       "module": 4,
       "title": "You do not have to take every turn",
       "desc": "Activity and opportunity are not synonyms.",
-      "pages": [
-        249,
-        251
-      ],
       "chapter": "Chapter 8 · The meaning of gambling and comparison of rules",
       "takeaway": [
         "Participation can be optional.",
@@ -1056,10 +908,6 @@ const DATA_EN = {
       "module": 4,
       "title": "Racing: the favorite and the value differ",
       "desc": "A high probability can be offered at an unattractive price.",
-      "pages": [
-        268,
-        270
-      ],
       "chapter": "Chapter 9 · Public opinion",
       "takeaway": [
         "Most likely to win does not mean best value.",
@@ -1095,10 +943,6 @@ const DATA_EN = {
       "module": 4,
       "title": "House edge: changing stakes does not help",
       "desc": "A negative-expectation game stays negative under a staking story.",
-      "pages": [
-        235,
-        238
-      ],
       "chapter": "Chapter 8 · Deductions and gambler’s ruin",
       "takeaway": [
         "Costs can turn a fair contest into an unfavorable one.",
@@ -1134,10 +978,6 @@ const DATA_EN = {
       "module": 4,
       "title": "Conviction needs a sizing rationale",
       "desc": "Changing size after frustration can distort the whole process.",
-      "pages": [
-        275,
-        278
-      ],
       "chapter": "Chapter 9 · Traps and changing contract sizes",
       "takeaway": [
         "Review the rule behind size changes.",
@@ -1173,10 +1013,6 @@ const DATA_EN = {
       "module": 5,
       "title": "A loser’s rebound is a hypothesis",
       "desc": "Historical reversals need context and a repeatable definition.",
-      "pages": [
-        129,
-        131
-      ],
       "chapter": "Chapter 4 · The central question and market return table",
       "takeaway": [
         "Define the universe before selecting the worst performer.",
@@ -1212,10 +1048,6 @@ const DATA_EN = {
       "module": 5,
       "title": "A chart story is not yet a test",
       "desc": "Convincing language can conceal a missing measurement.",
-      "pages": [
-        286,
-        288
-      ],
       "chapter": "Chapter 10 · Deception and charts",
       "takeaway": [
         "A familiar pattern can still be ambiguous.",
@@ -1251,10 +1083,6 @@ const DATA_EN = {
       "module": 5,
       "title": "A calendar effect can change",
       "desc": "A reported regularity may weaken, reverse or become uneconomic.",
-      "pages": [
-        369,
-        371
-      ],
       "chapter": "Chapter 12 · Trading regularities and Mondays",
       "takeaway": [
         "Separate a measured effect from a profitable strategy.",
@@ -1290,10 +1118,6 @@ const DATA_EN = {
       "module": 5,
       "title": "Regression is not a timetable",
       "desc": "Extreme observations can become less extreme without guaranteeing a trade.",
-      "pages": [
-        126,
-        129
-      ],
       "chapter": "Chapter 4 · Recovery, champions and poor performers",
       "takeaway": [
         "A return toward an average is a statistical concept.",
@@ -1329,10 +1153,6 @@ const DATA_EN = {
       "module": 5,
       "title": "A popular method can lose its advantage",
       "desc": "The participants learn, and the competition changes.",
-      "pages": [
-        266,
-        267
-      ],
       "chapter": "Chapter 9 · Racing selection methods",
       "takeaway": [
         "A selection idea can become widely adopted.",
@@ -1368,10 +1188,6 @@ const DATA_EN = {
       "module": 5,
       "title": "Order flow: measure before telling a story",
       "desc": "Transaction prices can reflect trading mechanics.",
-      "pages": [
-        369,
-        371
-      ],
       "chapter": "Chapter 12 · Trading and regularities",
       "takeaway": [
         "Limit and market orders interact.",
@@ -1407,10 +1223,6 @@ const DATA_EN = {
       "module": 6,
       "title": "Look for a mechanism behind the link",
       "desc": "Economic chains can suggest what to investigate.",
-      "pages": [
-        392,
-        394
-      ],
       "chapter": "Chapter 13 · Connections and the market chain",
       "takeaway": [
         "Related markets can transmit shocks.",
@@ -1446,10 +1258,6 @@ const DATA_EN = {
       "module": 6,
       "title": "Two rising lines can fool you",
       "desc": "Shared trends are not the same as an actionable relationship.",
-      "pages": [
-        402,
-        404
-      ],
       "chapter": "Chapter 13 · False market connections",
       "takeaway": [
         "Visual similarity can reflect a shared trend.",
@@ -1485,10 +1293,6 @@ const DATA_EN = {
       "module": 6,
       "title": "Ask who lives in the market",
       "desc": "An ecological lens focuses attention on incentives and interactions.",
-      "pages": [
-        469,
-        472
-      ],
       "chapter": "Chapter 15 · Ecological principles and the market ecosystem",
       "takeaway": [
         "Participants have different objectives and constraints.",
@@ -1524,10 +1328,6 @@ const DATA_EN = {
       "module": 6,
       "title": "Liquidity is offered by someone",
       "desc": "Dealer quotes reflect information and execution constraints.",
-      "pages": [
-        489,
-        490
-      ],
       "chapter": "Chapter 15 · Fixed-income dealers",
       "takeaway": [
         "A displayed or spoken quote is part of an interaction.",
@@ -1563,10 +1363,6 @@ const DATA_EN = {
       "module": 6,
       "title": "Competition encourages adaptation",
       "desc": "A successful tactic invites a counter-tactic.",
-      "pages": [
-        299,
-        302
-      ],
       "chapter": "Chapter 10 · Deception, economics and counter-adaptation",
       "takeaway": [
         "Participants can adapt to each other.",
@@ -1602,10 +1398,6 @@ const DATA_EN = {
       "module": 6,
       "title": "Feedback can stabilize or amplify",
       "desc": "Market ecology includes opposing mechanisms.",
-      "pages": [
-        502,
-        504
-      ],
       "chapter": "Chapter 15 · Competition and self-regulation",
       "takeaway": [
         "Negative feedback counteracts a disturbance.",
@@ -1641,10 +1433,6 @@ const DATA_EN = {
       "module": 7,
       "title": "A loss can become a story about blame",
       "desc": "A review is more useful when it separates events from explanations.",
-      "pages": [
-        115,
-        117
-      ],
       "chapter": "Chapter 4 · Ways of losing",
       "takeaway": [
         "Record what happened before explaining why.",
@@ -1680,10 +1468,6 @@ const DATA_EN = {
       "module": 7,
       "title": "Excitement is not a signal",
       "desc": "The book connects market activity with human motives and stimulation.",
-      "pages": [
-        325,
-        327
-      ],
       "chapter": "Chapter 11 · Desire and speculation",
       "takeaway": [
         "The feeling of excitement is different from evidence.",
@@ -1719,10 +1503,6 @@ const DATA_EN = {
       "module": 7,
       "title": "Use the analogy, then test the claim",
       "desc": "Music can sharpen attention to sequence without forecasting prices.",
-      "pages": [
-        428,
-        429
-      ],
       "chapter": "Chapter 14 · Music in the market",
       "takeaway": [
         "Analogies can suggest what to observe.",
@@ -1758,10 +1538,6 @@ const DATA_EN = {
       "module": 7,
       "title": "Anger can hand away an advantage",
       "desc": "Emotional control protects the decision process.",
-      "pages": [
-        36,
-        38
-      ],
       "chapter": "Chapter 1 · Controlling temper and sporting economy",
       "takeaway": [
         "A frustrated response can worsen the original setback.",
@@ -1797,10 +1573,6 @@ const DATA_EN = {
       "module": 7,
       "title": "Confidence and humility can coexist",
       "desc": "The book’s self-reliance argument contains a tension worth studying.",
-      "pages": [
-        151,
-        153
-      ],
       "chapter": "Chapter 5 · Self-reliance",
       "takeaway": [
         "Confidence can support action under uncertainty.",
@@ -1836,10 +1608,6 @@ const DATA_EN = {
       "module": 7,
       "title": "Success can lower your guard",
       "desc": "A winning sequence deserves scrutiny too.",
-      "pages": [
-        126,
-        128
-      ],
       "chapter": "Chapter 4 · Champions and losers",
       "takeaway": [
         "A win does not eliminate future uncertainty.",
@@ -1875,10 +1643,6 @@ const DATA_EN = {
       "module": 8,
       "title": "Count the misses as carefully as the hits",
       "desc": "A result needs its denominator and its classification rule.",
-      "pages": [
-        455,
-        457
-      ],
       "chapter": "Chapter 14 · How to count and counting education",
       "takeaway": [
         "Record all eligible observations.",
@@ -1914,10 +1678,6 @@ const DATA_EN = {
       "module": 8,
       "title": "Significance and usefulness are different",
       "desc": "A real effect can still be too small to exploit.",
-      "pages": [
-        370,
-        371
-      ],
       "chapter": "Chapter 12 · Weekday effects and their limitations",
       "takeaway": [
         "A statistical result is not automatically an economic edge.",
@@ -1953,10 +1713,6 @@ const DATA_EN = {
       "module": 8,
       "title": "End with a revision, not a slogan",
       "desc": "The epilogue returns to observation, adaptation and humility.",
-      "pages": [
-        507,
-        508
-      ],
       "chapter": "Chapter 16 · Epilogue",
       "takeaway": [
         "Record what worked and what did not.",
@@ -1992,10 +1748,6 @@ const DATA_EN = {
       "module": 8,
       "title": "Keep your own game book",
       "desc": "A useful record includes the losses, draws and reasons.",
-      "pages": [
-        214,
-        216
-      ],
       "chapter": "Chapter 7 · Before the game",
       "takeaway": [
         "Record outcomes under a consistent format.",
@@ -2031,10 +1783,6 @@ const DATA_EN = {
       "module": 8,
       "title": "The missing funds matter",
       "desc": "Performance reports can favor the survivors and willing reporters.",
-      "pages": [
-        476,
-        479
-      ],
       "chapter": "Chapter 15 · Managed futures and reporting limitations",
       "takeaway": [
         "Ask which participants enter the reported sample.",
@@ -2070,10 +1818,6 @@ const DATA_EN = {
       "module": 8,
       "title": "Build a method you can explain",
       "desc": "Join observation, incentives, probability and review into one question.",
-      "pages": [
-        507,
-        508
-      ],
       "chapter": "Chapter 16 · Epilogue",
       "takeaway": [
         "Use several disciplines to clarify one problem.",
@@ -2237,7 +1981,7 @@ const DATA_EN = {
       "title": "GameStop: investigate the popular story",
       "date": "January 2021",
       "facts": "SEC staff found short covering contributed during some intervals, but positive sentiment sustained GameStop’s weeks-long rise.",
-      "source": "SEC staff report, pp. 25–26",
+      "source": "SEC staff report",
       "url": "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf",
       "background": "GameStop’s January 2021 rise drew attention to retail participation, short selling and possible feedback loops. The SEC staff report examined transactions to test several competing explanations.",
       "sequence": [

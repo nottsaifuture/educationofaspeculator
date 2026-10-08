@@ -6,7 +6,7 @@ Explore 48 lessons in eight learning modules and 16 chapter guides. Every lesson
 
 Use the **繁體中文（香港） / English** button to switch the whole learning library, including quizzes, cases, chapter guides, and downloads. Language preference, bookmarks and progress are saved locally and shared between the language versions.
 
-The writing consists of original summaries, interpretation, and practical learning exercises. Chapter labels are descriptive English translations of the Chinese edition. The website distinguishes book context from additional examples and exercises.
+The writing consists of original summaries, interpretation, and practical learning exercises. Chapter labels are descriptive English translations of the Chinese edition. The website distinguishes book context from additional examples and exercises. Public lessons, chapter guides and downloads use book and chapter attribution without printed/PDF page numbers or private-PDF reading instructions.
 
 ## Interactive learning
 
