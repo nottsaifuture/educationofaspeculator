@@ -18,9 +18,9 @@ The writing consists of original summaries, interpretation, and practical learni
 
 ## Visual learning
 
-Every lesson uses a generated conceptual illustration related to its real-world case. Eleven case illustrations are shared across the 48 lessons; module cards, chapter cards and the other pages also include relevant artwork. Images are labelled as AI-generated concepts, not historical photographs. Eight hypothetical decision scenarios, bilingual feedback, keyboard-accessible recall cards, in-page shortcuts and an unread-lesson picker make the library more interactive.
+Every lesson pairs one of 17 chapter/opening illustrations with a separate illustration beside its real-world case. The 16 chapter cards each have a distinct cover. Eleven case illustrations are shared across the 48 lessons. A home-page visual shelf and accessible image viewer let readers explore the theme, use arrow keys to browse and jump to a related lesson. Module cards and the other pages also include relevant artwork. Images are labelled as AI-generated concepts, not historical photographs. Eight hypothetical decision scenarios, bilingual feedback, keyboard-accessible recall cards, in-page shortcuts and an unread-lesson picker make the library more interactive.
 
-Artwork prompts and generation details are saved in `assets/art/prompts.json`. Website assets use compressed WebP files.
+Artwork prompts and generation details are saved in `assets/art/prompts.json` and `assets/art/chapter-prompts.json`. Website assets use compressed WebP files.
 
 ## Case charts
 
@@ -48,6 +48,7 @@ In the repository's Pages settings, choose **Deploy from a branch**, select **ma
 
 - `index.html`: website entry point
 - `style.css` and `design.css`: responsive layout and editorial visual styling
+- `chapter-art.js`: chapter artwork, thematic captions and keyboard-accessible image viewer
 - `visual.js`: illustrations, decision scenarios, recall cards and lesson discovery
 - `assets/art/`: generated case illustrations and their prompt set
 - `case-charts.js`: historical case charts and data tables
